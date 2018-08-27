@@ -3,7 +3,7 @@
 <suite name="Suite1" verbose="1" >
   <test name="Regression" >
     <classes>
-       <class name="edureka.selenium.jenkin.selenium_jenkin_proj.SeleniumDemo" />
+       <class name="edureka.selenium.jenkin.selenium_jenkin_proj.SeleniumDemoTest" />
     </classes>
   </test>
 </suite>
