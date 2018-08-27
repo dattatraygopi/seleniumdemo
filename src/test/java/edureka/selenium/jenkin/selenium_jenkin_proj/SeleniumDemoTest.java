@@ -39,7 +39,7 @@ public class SeleniumDemoTest {
 	//	System.setProperty("webdriver.chrome.driver",				"D:\\APPs\\chromebrowser\\chromedriver.exe");
 		
 		// for linux
-		System.setProperty("webdriver.chrome.driver","/home/edureka/chromedriver");
+		System.setProperty("webdriver.chrome.driver","/home/edureka/chromedriver/chromedriver");
 
 		ChromeOptions chromeOptions = new ChromeOptions();
 		driver = new ChromeDriver(chromeOptions);
