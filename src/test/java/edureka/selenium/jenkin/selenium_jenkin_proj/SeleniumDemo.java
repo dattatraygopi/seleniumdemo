@@ -35,8 +35,12 @@ public class SeleniumDemo {
 		System.out
 		.println("Hi, Welcome to Edureka's YouTube Live session on Selenium    	WebDriver");
 
-		System.setProperty("webdriver.chrome.driver",
-				"D:\\APPs\\chromebrowser\\chromedriver.exe");
+	//	for windows
+	//	System.setProperty("webdriver.chrome.driver",				"D:\\APPs\\chromebrowser\\chromedriver.exe");
+		
+		// for linux
+		System.setProperty("webdriver.chrome.driver","/home/edureka/chromedriver");
+
 		ChromeOptions chromeOptions = new ChromeOptions();
 		driver = new ChromeDriver(chromeOptions);
 
