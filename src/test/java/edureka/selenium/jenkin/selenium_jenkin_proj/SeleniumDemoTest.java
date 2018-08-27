@@ -42,6 +42,10 @@ public class SeleniumDemoTest {
 		System.setProperty("webdriver.chrome.driver","/home/edureka/chromedriver/chromedriver");
 
 		ChromeOptions chromeOptions = new ChromeOptions();
+		
+		chromeOptions.addArguments("--headless");
+		chromeOptions.addArguments("--no-sandbox");
+		chromeOptions.addArguments("--disable-dev-shm-usage");
 		driver = new ChromeDriver(chromeOptions);
 
 	}
