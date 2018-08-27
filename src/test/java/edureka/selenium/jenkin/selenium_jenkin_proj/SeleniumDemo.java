@@ -16,7 +16,7 @@ public class SeleniumDemo {
 
 	@Test
 	public void LoginTest() throws InterruptedException {
-		driver.get("http://192.168.56.101:3001/");
+		driver.get("http://localhost:3001/");
 		Thread.sleep(10000);
 
 		driver.manage().timeouts().implicitlyWait(200, TimeUnit.SECONDS);
